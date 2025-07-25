@@ -1,0 +1,38 @@
+xxxYourComputableMyIGNameHere : Validation Results
+=========================================
+
+err = 6, warn = 5, info = 0
+IG Publisher Version: 2.0.11
+Generated Fri Jul 25 20:22:08 UTC 2025. FHIR version 4.0.1 for xxxexample.fhir.uv.myig#0.1.0-test (canonical = xxxhttp://somewhere.org/fhir/uv/myig)
+ Build Errors : 16 / 4 / 0
+ /work/input/myig : 6 / 1 / 1
+</table>
+== n/a ==
+ERROR: artifacts.html#/html/body/div/div/div/a/img at Line 68, column 91: The image source 'assets/images/uv.png' cannot be resolved
+ERROR: artifacts.html#/html/body/div/div/div/p/a at Line 203, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: changes.html#/html/body/div/div/div/a/img at Line 68, column 91: The image source 'assets/images/uv.png' cannot be resolved
+ERROR: changes.html#/html/body/div/div/div/p/a at Line 202, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/a/img at Line 68, column 91: The image source 'assets/images/uv.png' cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 187, column 7: The link 'definitions.xml.zip' for "XML" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 192, column 7: The link 'definitions.json.zip' for "JSON" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 197, column 7: The link 'definitions.ttl.zip' for "Turtle" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 205, column 7: The link 'examples.xml.zip' for "XML" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 210, column 7: The link 'examples.json.zip' for "JSON" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 215, column 7: The link 'examples.ttl.zip' for "Turtle" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/p/a at Line 238, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: index.html#/html/body/div/div/div/a/img at Line 68, column 91: The image source 'assets/images/uv.png' cannot be resolved
+ERROR: index.html#/html/body/div/div/div/p/a at Line 267, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: toc.html#/html/body/div/div/div/a/img at Line 68, column 91: The image source 'assets/images/uv.png' cannot be resolved
+ERROR: toc.html#/html/body/div/div/div/p/a at Line 191, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== input/myig.xml ==
+ERROR: ImplementationGuide.where(url = 'xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig'): Conformance resource /work/input/myig.xml - the canonical URL (xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/xxxexample.fhir.uv.myig) does not match the URL (xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig)
+ERROR: ImplementationGuide.url: Resource id/url mismatch: xxxexample.fhir.uv.myig/xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig
+ERROR: ImplementationGuide/xxxexample.fhir.uv.myig: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1)
+WARNING: ImplementationGuide/xxxexample.fhir.uv.myig: ImplementationGuide: Constraint failed: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+ERROR: ImplementationGuide/xxxexample.fhir.uv.myig: ImplementationGuide.dependsOn[0]: The packageId hl7.terminology.r4 points to the canonical https://packages2.fhir.org/packages/hl7.terminology.r4b/6.0.2 which is inconsistent with the stated canonical of http://terminology.hl7.org/ImplementationGuide/hl7.terminology
+ERROR: ImplementationGuide/xxxexample.fhir.uv.myig: ImplementationGuide.dependsOn[1]: The packageId hl7.fhir.uv.extensions.r4 points to the canonical https://packages2.fhir.org/packages/hl7.fhir.uv.extensions.r4/5.2.0 which is inconsistent with the stated canonical of http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions
+ERROR: /work/input/myig: URL Mismatch xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/xxxexample.fhir.uv.myig vs xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig
